@@ -1,4 +1,4 @@
-import Head from 'next/head'
+import Head from 'next/head' 
 
 export default function Home() {
   return (
@@ -12,15 +12,15 @@ export default function Home() {
 
       <main>
         <section className="flex">
-          <div className="flex-1 hidden lg:block">
-            <img src="/unindra-logo.png" className="" alt="Gambar"/>
+          <div className="hidden lg:flex lg:flex-auto lg:justify-center lg:items-center w-20 lg:bg-cyan-500">
+            <img src="/unindra-logo.png" className="w-96 h-96" alt="Gambar"/>
           </div>
-          <div className="flex justify-center items-center h-screen w-full">
-            <form className="flex justify-center items-center flex-col">
-              <img src="/unindra-logo.png" className="w-16" alt="Gambar"/>
-              <h1 className="mt-5 mb-14 text-xl">Welcome</h1>
-              <input className="w-100 mb-4 border-2 px-4 py-2" type="text" placeholder="Username"/>
-              <input className="w-100 mt-4 border-2 px-4 py-2" type="password" placeholder="Password"/>
+          <div className="flex lg:flex-auto justify-center items-center h-screen w-full lg:w-80">
+            <form className="flex justify-center items-center flex-col lg:w-full">
+              <img src="/unindra-logo.png" className="w-16 lg:hidden" alt="Gambar"/>
+              <h1 className="mt-5 mb-14 text-xl lg:text-3xl">Welcome</h1>
+              <input className="mb-4 border-2 px-4 py-2 lg:w-96" type="text" placeholder="Username"/>
+              <input className="mt-4 border-2 px-4 py-2 lg:w-96" type="password" placeholder="Password"/>
             </form>
           </div>
         </section>
