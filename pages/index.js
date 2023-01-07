@@ -18,9 +18,10 @@ export default function Home() {
           <div className="flex lg:flex-auto justify-center items-center h-screen w-full lg:w-80">
             <form className="flex justify-center items-center flex-col lg:w-full">
               <img src="/unindra-logo.png" className="w-16 lg:hidden" alt="Gambar"/>
-              <h1 className="mt-5 mb-14 text-xl lg:text-3xl">Welcome</h1>
-              <input className="mb-4 border-2 px-4 py-2 lg:w-96" type="text" placeholder="Username"/>
-              <input className="mt-4 border-2 px-4 py-2 lg:w-96" type="password" placeholder="Password"/>
+              <h1 className="mt-5 mb-10 text-2xl lg:text-3xl">Welcome</h1>
+              <input className="mb-4 border-2 px-4 py-2 lg:w-96 rounded-md" type="text" placeholder="Username"/>
+              <input className="mt-4 border-2 px-4 py-2 lg:w-96 rounded-md" type="password" placeholder="Password"/>
+              <button className="border-2 mt-8 bg-cyan-200 px-10 py-2 rounded-md" type="submit">Login</button>
             </form>
           </div>
         </section>
