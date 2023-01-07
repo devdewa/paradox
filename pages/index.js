@@ -22,6 +22,7 @@ export default function Home() {
               <input className="mb-4 border-2 px-4 py-2 lg:w-96 rounded-md" type="text" placeholder="Username"/>
               <input className="mt-4 border-2 px-4 py-2 lg:w-96 rounded-md" type="password" placeholder="Password"/>
               <button className="border-2 mt-8 bg-cyan-200 px-10 py-2 rounded-md" type="submit">Login</button>
+              <a href="" className="mt-8 text-sm lg:text-lg">Create a new Account</a>
             </form>
           </div>
         </section>
