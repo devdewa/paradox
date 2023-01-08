@@ -18,7 +18,7 @@ export default function Register() {
       <main>
         <section className="flex">
           <div className="hidden lg:flex lg:flex-auto lg:justify-center lg:items-center w-20 lg:bg-cyan-500">
-            <img src="/unindra-logo.png" className="w-96 h-96" alt="Gambar"/>
+            <Image src={unindraLogo} className="w-96 h-96" alt="Gambar"/>
           </div>
           <div className="flex lg:flex-auto justify-center items-center h-screen w-full lg:w-80">
             <form className="flex justify-center items-center flex-col lg:w-full">
