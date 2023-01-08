@@ -1,5 +1,9 @@
 import Head from 'next/head'
+
 import Link from 'next/link'
+import Image from 'next/image'
+
+import unindraLogo from '../public/unindra-logo.png'
 
 export default function Home() {
   return (
@@ -18,7 +22,7 @@ export default function Home() {
           </div>
           <div className="flex lg:flex-auto justify-center items-center h-screen w-full lg:w-80">
             <form className="flex justify-center items-center flex-col lg:w-full">
-              <img src="/unindra-logo.png" className="w-16 lg:hidden" alt="Gambar"/>
+              <Image src={unindraLogo} className="w-16 lg:hidden" alt="Gambar"/>
               <h1 className="mt-5 mb-10 text-2xl lg:text-3xl">Welcome</h1>
               <input className="mb-4 border-2 px-4 py-2 lg:w-96 rounded-md" type="text" placeholder="Username"/>
               <input className="mt-4 border-2 px-4 py-2 lg:w-96 rounded-md" type="password" placeholder="Password"/>
