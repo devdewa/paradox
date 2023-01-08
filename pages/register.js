@@ -25,7 +25,8 @@ export default function Register() {
             <Image src={unindraLogo} className="w-16 lg:hidden" alt="Gambar"/>
               <h1 className="mt-5 mb-10 text-2xl lg:text-3xl">Register</h1>
               <input className="mb-4 border-2 px-4 py-2 lg:w-96 rounded-md" type="text" placeholder="Username"/>
-              <input className="mt-4 border-2 px-4 py-2 lg:w-96 rounded-md" type="password" placeholder="Password"/>
+              <input className="my-4 border-2 px-4 py-2 lg:w-96 rounded-md" type="password" placeholder="Password"/>
+              <input className="mt-4 border-2 px-4 py-2 lg:w-96 rounded-md" type="password" placeholder="Confirm Password"/>
               <button className="border-2 mt-8 bg-cyan-200 px-10 py-2 rounded-md" type="submit">Submit</button>
               <Link href="/" className="mt-8 text-sm lg:text-lg"> I Have a Account </Link>
             </form>
