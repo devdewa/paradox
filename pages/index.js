@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 import unindraLogo from '../public/unindra-logo.png'
 
-export default function Home() {
+export default function Index() {
   return (
     <>
       <Head>
