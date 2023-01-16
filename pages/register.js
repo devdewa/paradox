@@ -17,7 +17,7 @@ export default function Register() {
 
       <main>
         <section className="flex">
-          <div className="hidden lg:flex lg:flex-auto lg:justify-center lg:items-center w-20 lg:bg-cyan-500">
+        <div className="hidden lg:flex lg:flex-auto lg:justify-center lg:items-center w-20 lg:bg-gray-800">
             <Image src={unindraLogo} className="w-96 h-96" alt="Gambar"/>
           </div>
           <div className="flex lg:flex-auto justify-center items-center h-screen w-full lg:w-80">
@@ -27,7 +27,7 @@ export default function Register() {
               <input className="mb-4 border-2 px-4 py-2 lg:w-96 rounded-md" type="text" placeholder="Username"/>
               <input className="my-4 border-2 px-4 py-2 lg:w-96 rounded-md" type="password" placeholder="Password"/>
               <input className="mt-4 border-2 px-4 py-2 lg:w-96 rounded-md" type="password" placeholder="Confirm Password"/>
-              <button className="border-2 mt-8 bg-cyan-200 px-10 py-2 rounded-md" type="submit">Submit</button>
+              <button className="border-2 mt-8 bg-gray-200 px-10 py-2 rounded-md" type="submit">Submit</button>
               <Link href="/" className="mt-8 text-sm lg:text-lg"> I Have a Account </Link>
             </form>
           </div>
